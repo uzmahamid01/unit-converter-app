@@ -67,8 +67,8 @@ convertBtn.addEventListener("click", function() {
     const input = parseFloat(inputElement.value); 
         if (!isNaN(input)) {
             convertAndDisplay(input, 'length', lengthEl, "meters", "feet")
-            convertAndDisplay(input, 'volume', volumeEl, "meters", "feet")
-            convertAndDisplay(input, 'mass', massEl, "meters", "feet")
+            convertAndDisplay(input, 'volume', volumeEl, "liters", "gallons")
+            convertAndDisplay(input, 'mass', massEl, "kilos", "pounds")
         }
         inputElement.value = ""
 
